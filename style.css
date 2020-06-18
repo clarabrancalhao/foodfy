@@ -3,6 +3,11 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  
+}
+
+* h3, * p {
+  line-height: 28px;
 }
 
 body {
@@ -116,4 +121,68 @@ footer {
   color: #999999;
   font-size: 14px;
 }
+
+
+
+.sobre a:first-child { 
+  font-weight: 700;
+}
+
+.textoSobre  {
+margin-left: 230px;
+max-width: 940px;
+
+}
+
+.textoSobre h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111111;
+  margin-top: 20px;
+}
+
+.textoSobre h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+  margin-top: 10px;
+}
+
+.textoSobre h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hdReceitas  a:last-child{
+  font-weight: 700;
+
+}
+
+.modalOverlay {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  opacity: 0.6;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: white;
+  opacity: 1;
+  border-radius: 16px;
+  width: 660px;
+  height: 355px;
+  
+}
+
 
