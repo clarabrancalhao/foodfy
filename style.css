@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  height: 93px;
+}
+
+header img {
+  margin-left: 231px;
+  margin-top: 36.1px;
+  margin-bottom: 30px;
+}
+
+header .links  {
+  margin-left: 122px;
+  margin-top: 38px;
+  font-size: 16px;
+
+}
+
+header .links a {
+  text-decoration: none;
+  color: black;
+}
+
+header .links a:last-child {
+  margin-left: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  height: 366px;
+  background-color: #FBDFDB;
+  border-radius: 30px;
+  margin-left: 231px;
+  position: relative;
+}
+main .textos {
+width: 316px;
+position: absolute;
+margin-left: 60px;
+margin-top: 117px;
+
+}
+
+main h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+main p {
+  font-size: 18px;
+  color: black;
+  opacity: 70%;
+}
+
+main .mascote {
+  margin-left: 624px;
+  margin-top: 66px;
+}
+.receitas h1 {
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 230px;
+}
+
+.receitas .foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-left: 230px;
+  margin-top: 20px;
+  position: relative;
+  max-width: 300px;
+}
+
+.foods img {
+  border-radius: 15px;
+  width: 300px;
+}
+
+.foods h1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.foods p {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 5px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 62px;
+  background-color: #EEEEEE;
+  margin-bottom: 0;
+  margin-top: 50px;
+  color: #999999;
+  font-size: 14px;
+}
+
