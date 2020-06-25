@@ -102,6 +102,8 @@ main .mascote {
   font-weight: 500;
   margin-left: 0;
   margin-top: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 .foods p {
@@ -169,20 +171,69 @@ max-width: 940px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000000;
-  opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.6) ;
   position: fixed;
   z-index: 1;
   overflow: auto;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal-content {
   background-color: white;
-  opacity: 1;
   border-radius: 16px;
   width: 660px;
-  height: 355px;
-  
+  height: 413px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-content .closeModal {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.food-infos img{
+  width: 600px;
+  height: 200px;
+  margin-top: 30px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.food-infos h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.food-infos p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #777777;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+.closeModal a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+/*----------MODAL ACTIVE-----------*/
+.modalOverlay.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 
