@@ -19,7 +19,7 @@ for (let card of cards) {
 }
 
 document.querySelector(".closeModal").addEventListener("click", function() {
-  modalOverlay.classList.remove("active")
+  modalOverlay.classList.remove("active");
 })
 
 
